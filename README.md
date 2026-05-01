@@ -1,4 +1,5 @@
 # Task Manager 
+Live-tested locally with Swagger and React UI integration
 
 ## Overview
 A full-stack Task Manager application built using FastAPI (backend) and React (frontend). The system supports secure user authentication using JWT and implements role-based access control where users manage their own tasks and admins can manage all tasks.
