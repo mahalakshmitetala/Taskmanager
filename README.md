@@ -1,4 +1,4 @@
-# Task Manager API (Full Stack)
+# Task Manager 
 
 ## Overview
 A full-stack Task Manager application built using FastAPI (backend) and React (frontend). The system supports secure user authentication using JWT and implements role-based access control where users manage their own tasks and admins can manage all tasks.
@@ -41,6 +41,7 @@ A full-stack Task Manager application built using FastAPI (backend) and React (f
 ---
 ## Project Structure
 
+
 project/
 ├── backend/
 │ ├── routes/
@@ -67,13 +68,16 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 Backend runs on: http://127.0.0.1:8000
 
-Frontend Setup
+###Frontend Setup
+```bash
 cd frontend
 npm install
 npm start
+```
 
 Frontend runs on: http://localhost:3000
 
@@ -140,4 +144,4 @@ http://127.0.0.1:8000/docs
 
 This project demonstrates full-stack development with secure authentication, role-based access control, REST API design, and scalable architecture principles.
 
-## Project Structure
+
