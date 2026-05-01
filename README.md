@@ -41,23 +41,22 @@ A full-stack Task Manager application built using FastAPI (backend) and React (f
 ---
 ## Project Structure
 
-
+```
 project/
 ├── backend/
-│ ├── routes/
-│ │ ├── user_routes.py
-│ │ └── task_routes.py
-│ ├── auth.py
-│ ├── database.py
-│ ├── models.py
-│ └── main.py
+│   ├── routes/
+│   │   ├── user_routes.py
+│   │   └── task_routes.py
+│   ├── auth.py
+│   ├── database.py
+│   ├── models.py
+│   └── main.py
 ├── frontend/
-│ ├── public/
-│ └── src/
+│   ├── public/
+│   └── src/
 ├── .gitignore
 └── README.md
-
----
+```
 
 ## Setup Instructions
 
